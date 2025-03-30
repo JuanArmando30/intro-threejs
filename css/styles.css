@@ -1,0 +1,24 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#container {
+    flex: 1; /* Hace que el contenido ocupe todo el espacio disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scene-container {
+    width: 100%;
+    height: 100vh; /* Se ajusta al tamaño de la ventana */
+}
+
+footer {
+    margin-top: auto;
+}
